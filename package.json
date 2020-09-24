@@ -69,6 +69,7 @@
     "antd": "^4.4.3",
     "lodash-es": "^4.17.15",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "snowpack-plugin-less": "^1.0.3"
   }
 }

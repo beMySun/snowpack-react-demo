@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.png';
+import './index.less';
 
 const App = () => {
   React.useEffect(() => {

@@ -3102,7 +3102,7 @@ entities@^2.0.0:
   version "2.0.3"
   resolved "https://npm.garenanow.com/entities/-/entities-2.0.3.tgz#5c487e5742ab93c15abb5da22759b8590ec03b7f"
 
-errno@^0.1.3, errno@~0.1.7:
+errno@^0.1.1, errno@^0.1.3, errno@~0.1.7:
   version "0.1.7"
   resolved "https://npm.garenanow.com/errno/-/errno-0.1.7.tgz#4684d71779ad39af177e3f007996f7c67c852618"
   dependencies:
@@ -3970,6 +3970,10 @@ ignore@^5.1.4:
   version "5.1.8"
   resolved "https://npm.garenanow.com/ignore/-/ignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
 
+image-size@~0.5.0:
+  version "0.5.5"
+  resolved "https://npm.garenanow.com/image-size/-/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
+
 import-cwd@^2.0.0:
   version "2.1.0"
   resolved "https://npm.garenanow.com/import-cwd/-/import-cwd-2.1.0.tgz#aa6cf36e722761285cb371ec6519f53e2435b0a9"
@@ -4556,6 +4560,20 @@ last-call-webpack-plugin@^3.0.0:
     lodash "^4.17.5"
     webpack-sources "^1.1.0"
 
+less@^3.12.2:
+  version "3.12.2"
+  resolved "https://npm.garenanow.com/less/-/less-3.12.2.tgz#157e6dd32a68869df8859314ad38e70211af3ab4"
+  dependencies:
+    tslib "^1.10.0"
+  optionalDependencies:
+    errno "^0.1.1"
+    graceful-fs "^4.1.2"
+    image-size "~0.5.0"
+    make-dir "^2.1.0"
+    mime "^1.4.1"
+    native-request "^1.0.5"
+    source-map "~0.6.0"
+
 leven@^3.1.0:
   version "3.1.0"
   resolved "https://npm.garenanow.com/leven/-/leven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
@@ -4723,7 +4741,7 @@ magic-string@^0.25.3, magic-string@^0.25.5, magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.4"
 
-make-dir@^2.0.0:
+make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"
   resolved "https://npm.garenanow.com/make-dir/-/make-dir-2.1.0.tgz#5f0310e18b8be898cc07009295a30ae41e91e6f5"
   dependencies:
@@ -4835,6 +4853,10 @@ mime-types@^2.1.12, mime-types@^2.1.26, mime-types@~2.1.19:
   resolved "https://npm.garenanow.com/mime-types/-/mime-types-2.1.27.tgz#47949f98e279ea53119f5722e0f34e529bec009f"
   dependencies:
     mime-db "1.44.0"
+
+mime@^1.4.1:
+  version "1.6.0"
+  resolved "https://npm.garenanow.com/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
 
 mimic-fn@^2.1.0:
   version "2.1.0"
@@ -5001,6 +5023,10 @@ nanomatch@^1.2.9:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+native-request@^1.0.5:
+  version "1.0.7"
+  resolved "https://npm.garenanow.com/native-request/-/native-request-1.0.7.tgz#ff742dc555b4c8f2f1c14b548639ba174e573856"
 
 natural-compare@^1.4.0:
   version "1.4.0"
@@ -6866,6 +6892,12 @@ snowpack-plugin-import-map@^1.0.0:
     "@babel/core" "^7.10.2"
     "@babel/traverse" "^7.10.1"
 
+snowpack-plugin-less@^1.0.3:
+  version "1.0.3"
+  resolved "https://npm.garenanow.com/snowpack-plugin-less/-/snowpack-plugin-less-1.0.3.tgz#19e63647256b0f0d77351c43d5593c3a3844de6c"
+  dependencies:
+    less "^3.12.2"
+
 snowpack@^2.6.4:
   version "2.11.1"
   resolved "https://npm.garenanow.com/snowpack/-/snowpack-2.11.1.tgz#8565bed98806162bc1b001d3796c8863b18a2084"
@@ -7365,7 +7397,7 @@ tr46@^2.0.2:
   dependencies:
     punycode "^2.1.1"
 
-tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.13.0"
   resolved "https://npm.garenanow.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
 
