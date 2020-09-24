@@ -8,7 +8,7 @@ const App = () => {
   }, []);
 
   return (
-    <div style={{ textAlign: 'center', margin: 40 }}>
+    <div className="logo">
       <img src={logo} />
     </div>
   );
