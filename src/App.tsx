@@ -1,13 +1,16 @@
 import React from 'react';
-import Card from 'antd/es/card';
-import 'antd/es/card/style/css';
 import logo from './logo.png';
 
-export default () => {
+const App = () => {
+  React.useEffect(() => {
+    console.log(import.meta);
+  }, []);
+
   return (
-    <Card hoverable style={{ textAlign: 'center', margin: 40 }}>
-      <div> Hello Snowpack !!!~~</div>
+    <div style={{ textAlign: 'center', margin: 40 }}>
       <img src={logo} />
-    </Card>
+    </div>
   );
 };
+
+export default App;

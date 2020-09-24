@@ -10,7 +10,7 @@
     "install": "snowpack install",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix",
-    "dev": "snowpack dev",
+    "dev": "cid=id snowpack dev",
     "build": "snowpack build",
     "build:bundle": "snowpack build --bundle",
     "start": "npm run dev"
