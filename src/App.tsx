@@ -1,17 +1,10 @@
 import React from 'react';
 import logo from './logo.png';
+import LandingPage from './pages/landingPage';
 import './index.less';
 
 const App = () => {
-  React.useEffect(() => {
-    console.log(import.meta);
-  }, []);
-
-  return (
-    <div className="logo">
-      <img src={logo} />
-    </div>
-  );
+  return <LandingPage />;
 };
 
 export default App;
