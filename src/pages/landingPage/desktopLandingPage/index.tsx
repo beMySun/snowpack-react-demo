@@ -10,29 +10,29 @@ import 'antd/es/back-top/style/css';
 import 'antd/es/button/style/css';
 import 'antd/es/carousel/style/css';
 
-import Icon from '@ant-design/icons';
+// import Icon from '@ant-design/icons';
 import classnames from 'classnames';
 
-import gudangkuLogo from '../../../assets/landingpage/logo_32.png';
+import gudangkuLogo from '../../../logo.png';
 
-import iconArrow from '../../../assets/landingpage/icon_arrow.svg';
-import videoCover from '../../../assets/landingpage/img_videoCover_1440.png';
-import videoBg from '../../../assets/landingpage/bg_1@2x.png';
+// import iconArrow from '../../../assets/landingpage/icon_arrow.svg';
+// import videoCover from '../../../assets/landingpage/img_videoCover_1440.png';
+// import videoBg from '../../../assets/landingpage/bg_1@2x.png';
 
-import spotBg from '../../../assets/landingpage/bg_2@2x.png';
-import Spot1 from '../../../assets/landingpage/img_benefit_centralization.png';
-import Spot2 from '../../../assets/landingpage/img_benefit_automatic.png';
-import Spot3 from '../../../assets/landingpage/img_benefit_visibility.png';
+// import spotBg from '../../../assets/landingpage/bg_2@2x.png';
+// import Spot1 from '../../../assets/landingpage/img_benefit_centralization.png';
+// import Spot2 from '../../../assets/landingpage/img_benefit_automatic.png';
+// import Spot3 from '../../../assets/landingpage/img_benefit_visibility.png';
 
-import feature1 from '../../../assets/landingpage/img_feature_storeManagement.png';
-import feature2 from '../../../assets/landingpage/img_feature_stockManagement.png';
-import feature3 from '../../../assets/landingpage/img_feature_orderManagement.png';
-import feature4 from '../../../assets/landingpage/img_feature_barcode.png';
-import feature5 from '../../../assets/landingpage/img_feature_storeHistory.png';
-import feature6 from '../../../assets/landingpage/img_feature_location.png';
+// import feature1 from '../../../assets/landingpage/img_feature_storeManagement.png';
+// import feature2 from '../../../assets/landingpage/img_feature_stockManagement.png';
+// import feature3 from '../../../assets/landingpage/img_feature_orderManagement.png';
+// import feature4 from '../../../assets/landingpage/img_feature_barcode.png';
+// import feature5 from '../../../assets/landingpage/img_feature_storeHistory.png';
+// import feature6 from '../../../assets/landingpage/img_feature_location.png';
 
-import quote from '../../../assets/landingpage/icon_ quotation.png';
-import readyBg from '../../../assets/landingpage/bg_3@2x.png';
+// import quote from '../../../assets/landingpage/icon_ quotation.png';
+// import readyBg from '../../../assets/landingpage/bg_3@2x.png';
 
 import './index.less';
 
@@ -89,9 +89,9 @@ const DesktopLandingPage: React.FC = () => {
             solidBackground: showHeaderBackground,
           })}
         >
-          <img src={gudangkuLogo} alt="logo" className="app-logo" />
+          {/* <img src={gudangkuLogo} alt="logo" className="app-logo" /> */}
           <div>
-            <Button className="login-btn">Login</Button>
+            <Button className="login-btn">Loginss22</Button>
             <Button className="regist-btn" type="primary" onClick={jumpToRegist}>
               Daftar
             </Button>
@@ -99,10 +99,10 @@ const DesktopLandingPage: React.FC = () => {
         </div>
         <section
           className="video-content"
-          style={{
-            backgroundImage: `url(${videoBg})`,
-            backgroundSize: 'cover',
-          }}
+          // style={{
+          //   backgroundImage: `url(${videoBg})`,
+          //   backgroundSize: 'cover',
+          // }}
         >
           <div className="info">
             <div className="title show">Dari Shopee, Untuk Anda</div>
@@ -121,7 +121,7 @@ const DesktopLandingPage: React.FC = () => {
               options={{
                 video: {
                   url: getVideoUrl(),
-                  pic: videoCover,
+                  // pic: videoCover,
                 },
                 contextmenu: [],
                 lang: 'en',
@@ -134,7 +134,7 @@ const DesktopLandingPage: React.FC = () => {
         <section
           className="spots"
           style={{
-            backgroundImage: `url(${spotBg})`,
+            // backgroundImage: `url(${spotBg})`,
             backgroundSize: 'cover',
           }}
         >
@@ -149,14 +149,14 @@ const DesktopLandingPage: React.FC = () => {
             })}
           >
             <div className="spots-item">
-              <img src={Spot1} alt="Gudangku" className="ico" />
+              {/* <img src={Spot1} alt="Gudangku" className="ico" /> */}
               <div className="title">Sentralisasi</div>
               <div className="desc">
                 Kelola semua toko dari setiap channel penjualan Anda melalui satu sistem.
               </div>
             </div>
             <div className="spots-item">
-              <img src={Spot2} alt="Gudangku" className="ico" />
+              {/* <img src={Spot2} alt="Gudangku" className="ico" /> */}
               <div className="title">Otomatis</div>
               <div className="desc">
                 Kurangi aktivitas manual dengan integrasi API dengan semua toko Shopee Anda.
@@ -164,7 +164,7 @@ const DesktopLandingPage: React.FC = () => {
               </div>
             </div>
             <div className="spots-item">
-              <img src={Spot3} alt="Gudangku" className="ico" />
+              {/* <img src={Spot3} alt="Gudangku" className="ico" /> */}
               <div className="title">Visibilitas</div>
               <div className="desc">
                 Dapatkan peringatan jumlah stok yang menipis dan tingkatkan akurasi stok produk
@@ -181,14 +181,14 @@ const DesktopLandingPage: React.FC = () => {
             })}
           >
             <div className="feature-item">
-              <img src={feature1} alt="Gudangku" className="feature-pic" />
+              {/* <img src={feature1} alt="Gudangku" className="feature-pic" /> */}
               <div className="feature-title">Manajemen Toko</div>
               <div className="feature-desc">
                 Kelola semua toko dari setiap channel penjualan Anda melalui satu sistem.
               </div>
             </div>
             <div className="feature-item">
-              <img src={feature2} alt="Gudangku" className="feature-pic" />
+              {/* <img src={feature2} alt="Gudangku" className="feature-pic" /> */}
               <div className="feature-title">Manajemen Stok</div>
               <div className="feature-desc">
                 Pantau dan kelola seluruh stok produk tanpa harus membuka satu per satu halaman toko
@@ -196,28 +196,28 @@ const DesktopLandingPage: React.FC = () => {
               </div>
             </div>
             <div className="feature-item">
-              <img src={feature3} alt="Gudangku" className="feature-pic" />
+              {/* <img src={feature3} alt="Gudangku" className="feature-pic" /> */}
               <div className="feature-title">Manajemen Pesanan</div>
               <div className="feature-desc">
                 Proses seluruh pesanan dari semua channel Penjualan melalui satu sistem.
               </div>
             </div>
             <div className="feature-item">
-              <img src={feature4} alt="Gudangku" className="feature-pic" />
+              {/* <img src={feature4} alt="Gudangku" className="feature-pic" /> */}
               <div className="feature-title">Pembuatan Barcode</div>
               <div className="feature-desc">
                 Atur dan cetak barcode untuk mempermudah proses pendataan keluar-masuknya barang.
               </div>
             </div>
             <div className="feature-item">
-              <img src={feature5} alt="Gudangku" className="feature-pic" />
+              {/* <img src={feature5} alt="Gudangku" className="feature-pic" /> */}
               <div className="feature-title">Riwayat Pergerakan Stok</div>
               <div className="feature-desc">
                 Ketahui riwayat pergerakan stok produk untuk keperluan administrasi Gudang Anda.
               </div>
             </div>
             <div className="feature-item">
-              <img src={feature6} alt="Gudangku" className="feature-pic" />
+              {/* <img src={feature6} alt="Gudangku" className="feature-pic" /> */}
               <div className="feature-title">Manajemen Lokasi</div>
               <div className="feature-desc">
                 Buat skema lokasi penyimpanan produk untuk mempermudah proses pencarian produk di
@@ -237,7 +237,7 @@ const DesktopLandingPage: React.FC = () => {
             ></div>
             <Carousel ref={ref} {...carouselSettings}>
               <div className="slider-item">
-                <img src={quote} alt="avatar" className="quote" />
+                {/* <img src={quote} alt="avatar" className="quote" /> */}
                 <img
                   src="https://cf.shopee.co.id/file/faeb7fbc51e6a748798406d680e2db49_tn"
                   alt="avatar"
@@ -259,7 +259,7 @@ const DesktopLandingPage: React.FC = () => {
                 <p className="name">Henny, Kmarket.id</p>
               </div>
               <div className="slider-item">
-                <img src={quote} alt="avatar" className="quote" />
+                {/* <img src={quote} alt="avatar" className="quote" /> */}
                 <img
                   src="https://cf.shopee.co.id/file/7dc3c93ce8a51e3d335ac210a2a7772f_tn"
                   alt="avatar"
@@ -274,7 +274,7 @@ const DesktopLandingPage: React.FC = () => {
                 <p className="name">Andra Andirana, Anugrah Gorden Shop</p>
               </div>
               <div className="slider-item">
-                <img src={quote} alt="avatar" className="quote" />
+                {/* <img src={quote} alt="avatar" className="quote" /> */}
                 <img
                   src="https://cf.shopee.co.id/file/572575836de51faa9d3acb025f05801a_tn"
                   alt="avatar"
@@ -302,7 +302,7 @@ const DesktopLandingPage: React.FC = () => {
         <section
           className="ready"
           style={{
-            backgroundImage: `url(${readyBg})`,
+            // backgroundImage: `url(${readyBg})`,
             backgroundSize: 'cover',
           }}
         >
@@ -313,12 +313,12 @@ const DesktopLandingPage: React.FC = () => {
         </section>
         <section className="footer">© Shopee 2020. Hak Cipta Dilindungi</section>
       </div>
-      <div className="feedback" onClick={jumpToFeedback}>
+      {/* <div className="feedback" onClick={jumpToFeedback}>
         <div className="text">Masukan</div>
       </div>
       <BackTop visibilityHeight={800}>
         <div className="backtop-inner"></div>
-      </BackTop>
+      </BackTop> */}
     </div>
   );
 };
