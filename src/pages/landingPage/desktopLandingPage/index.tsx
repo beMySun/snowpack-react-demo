@@ -1,18 +1,15 @@
 import React from 'react';
 import DPlayer from 'react-dplayer';
+import classnames from 'classnames';
 // import { Button, Carousel, BackTop } from 'antd';
 
 import Button from 'antd/es/button';
 import Carousel from 'antd/es/carousel';
-import BackTop from 'antd/es/back-top';
 
-import 'antd/es/back-top/style/css';
 import 'antd/es/button/style/css';
 import 'antd/es/carousel/style/css';
 
 // import Icon from '@ant-design/icons';
-import classnames from 'classnames';
-
 import gudangkuLogo from '../../../logo.png';
 
 // import iconArrow from '../../../assets/landingpage/icon_arrow.svg';
@@ -90,20 +87,9 @@ const DesktopLandingPage: React.FC = () => {
           })}
         >
           {/* <img src={gudangkuLogo} alt="logo" className="app-logo" /> */}
-          <div>
-            <Button className="login-btn">Loginss22</Button>
-            <Button className="regist-btn" type="primary" onClick={jumpToRegist}>
-              Daftar
-            </Button>
-          </div>
+          <Button className="login-btn">Login</Button>
         </div>
-        <section
-          className="video-content"
-          // style={{
-          //   backgroundImage: `url(${videoBg})`,
-          //   backgroundSize: 'cover',
-          // }}
-        >
+        <section className="video-content">
           <div className="info">
             <div className="title show">Dari Shopee, Untuk Anda</div>
             <div className="desc show">
@@ -221,7 +207,7 @@ const DesktopLandingPage: React.FC = () => {
               <div className="feature-title">Manajemen Lokasi</div>
               <div className="feature-desc">
                 Buat skema lokasi penyimpanan produk untuk mempermudah proses pencarian produk di
-                Gudang Anda.
+                Gudang Anda.,
               </div>
             </div>
           </div>
